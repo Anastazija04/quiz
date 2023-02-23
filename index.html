@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div id="divStart" class="text-center mt-5">
+      <h1>Welcome to Braister's Trivia!</h1>
+      <h4>Click on the button to begin.</h4>
+      <hr />
+      <button id="btnStart" class="btn btn-success">Start</button>
+    </div>
+
+    <div id="mainTrivia" class="text-center mt-5">
+      <div class="divTrivia1">
+        <h1>Good Luck!</h1>
+        <h4>Click on the button to start over.</h4>
+        <hr />
+        <button id="startOver" class="btn btn-warning">Start over</button>
+      </div>
+      <div id="divTrivia2">
+        <p id="questioninHTML"></p>
+        <div id="containerForButtons"></div>
+        <p id="category"></p>
+      </div>
+      <div id="divTrivia3"></div>
+    </div>
+    <div id="divTrivia4" class="text-center">
+      <h1>Let's see your score!</h1>
+      <p>Click on the button to start again!</p>
+      <button id="tryAgain" class="btn btn-danger">Try again</button>
+      <div>
+        <h1 id="totalAnswers"></h1>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
